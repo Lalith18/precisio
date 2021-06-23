@@ -1,0 +1,80 @@
+.about-section {
+    padding-top: 5vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-text {
+    text-align: left;
+    width: 40vw;
+    padding: 4vw;
+    float: left;
+}
+
+.about-image {
+    width: 40vw;
+    padding: 4vw;
+    float: right;
+}
+
+.team-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-header {
+    display: inline ;
+    font-size: 3rem;
+    font-weight: normal;
+    padding: 0;
+}
+
+.blog {
+    padding-right: 10%;
+}
+
+.about-para {
+    text-align:justify;
+    font-size: 30px;
+}
+
+.op-header {
+    display: inline ;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.op-para {
+    text-align:center;
+    font-size: 30px;
+    width: min-content;
+    margin: 0 auto;
+}
+
+.homepage-options {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homepage-op {
+    padding: 10vh 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-sub-text {
+    display: block ;
+    font-size: 3rem;
+    font-weight: normal;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+
+
+.img-op {
+    width: 15vw;
+}

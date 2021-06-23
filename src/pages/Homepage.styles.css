@@ -1,0 +1,21 @@
+.video {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/precisio.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.home-logo {
+    position: absolute;
+    top: 48vh;
+    left: 29vw;
+    height: 36vh;
+    width: 42vw;
+}
+
+.home-logo-img {
+    max-width: 90%;
+    height: auto;
+}

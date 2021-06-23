@@ -1,0 +1,44 @@
+.nav-option {
+    margin-right: 4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+    display: inline;
+    align-self: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.active-nav-title {
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.nav-title:hover {
+    color: yellow;
+}
+
+.nav-title::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out 0s;
+  }
+
+.nav-title:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }

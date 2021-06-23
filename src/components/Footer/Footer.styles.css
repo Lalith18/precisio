@@ -1,0 +1,59 @@
+
+.footer {
+    background-color: black;
+    margin-top: 20vh;
+    padding-top: 2vh;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-header {
+    color: white;
+    display: inline ;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.contact {
+    text-align: left;
+}
+
+.contact-header {
+    display: inline ;
+    font-size: 2rem;
+    font-weight: normal;
+    color: yellow;
+}
+
+.social-icon {
+    width: 60px;
+    padding: 5px;
+}
+
+.map {
+    width: 25vw;
+}
+
+.contact-details {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+}
+
+.social-button {
+    padding: 0;
+    width: 70px;
+    height: 100px;
+    font-size: 60px;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.social-button:hover {
+    font-size: 68px;
+}

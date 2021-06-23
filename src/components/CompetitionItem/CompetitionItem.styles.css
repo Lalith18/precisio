@@ -1,0 +1,8 @@
+.competition-item {
+    padding: 10px;
+    flex: 1;
+}
+
+.competition-preview {
+    width: 30vw;
+}
