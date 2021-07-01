@@ -8,11 +8,11 @@ const Navbar = () => {
         <div className='nav'>
             <img className='nav-logo' src={logo} alt='Precisio' />
             <div className='nav-options'>
-                <NavOption title='HOME' path='/'/>
+                <NavOption title='HOME' path='/home'/>
                 <NavOption title='COMPETITIONS' path='/competitions' />
-                <NavOption title='TEAMS' path='/competitions' />
-                <NavOption title='GALLERY' path='/competitions' />
-                <NavOption title='SPONSORS' path='/competitions' />
+                <NavOption title='TEAMS' path='/teams' />
+                <NavOption title='GALLERY' path='/gallery' />
+                <NavOption title='SPONSORS' path='/sponsors' />
             </div>
         </div>
     )

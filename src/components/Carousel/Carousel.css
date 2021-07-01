@@ -1,0 +1,70 @@
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 112vh;
+    height: 75vh;
+    margin: 0 5vw;
+    display: flex;
+    overflow: hidden;
+    border: 3vh solid black;
+    background-color: black;
+}
+
+.round-button {
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    font-size: 3rem;
+    color: yellow;
+    background-color: black;
+    
+    border: 4px solid black;
+}
+
+.round-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.slider-image {
+    width: 100%;
+    transition: 0.5s;
+}
+
+@media (max-width: 650px) {
+    .carousel {
+        padding-top: 5vh;
+    }
+
+    .round-button {
+        font-size: 2rem;
+    }
+
+    .round-button:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .left {
+        position: absolute;
+        bottom: 10vh;
+        left: 20vw;
+        z-index: 100;
+    }
+
+    .right {
+        position: absolute;
+        bottom: 10vh;
+        right: 20vw;
+    }
+
+    .slider {
+        width: 90vw;
+        height: 60vw;
+    }
+}

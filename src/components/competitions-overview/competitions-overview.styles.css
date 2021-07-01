@@ -1,0 +1,21 @@
+.overview-title {
+    font-size: 35px;
+}
+
+
+.competition-overview {
+    padding: 10vh;
+    text-align: left;
+}
+
+.overview-image {
+    float: right;
+    width: 39vw;
+    border: 0.5vw solid black;
+    margin-left: 5vw;
+}
+
+.competition-para {
+    font-size: 28px;
+    text-align:justify;
+}

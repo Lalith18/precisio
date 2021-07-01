@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutSection from '../components/AboutSection/AboutSection.component';
-import logo from '../data/homepageLogo.png'
+import AboutSection from '../../components/AboutSection/AboutSection.component';
+import logo from '../../data/homepageLogo.png'
 
 import './Homepage.styles.css'
 

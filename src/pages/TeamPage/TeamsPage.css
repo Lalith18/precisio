@@ -1,0 +1,62 @@
+.teams-page {
+    padding-top: 10vh;
+}
+
+.team-main-text {
+    font-size: 40px;
+    display: inline;
+}
+
+.teams-part-1 {
+    margin: auto;
+    margin-bottom: 7vh;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-p1-left {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 2vh;
+}
+
+.team-p1-right {
+    text-align: left;
+    font-size: 26px;
+    margin: 2vh;
+}
+
+.teams-part-2{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+}
+
+.team-general {
+    font-size: 24px;
+}
+
+.team-p2 {
+    margin: 0 5vh;
+    padding: 0 6vh;
+}
+
+.vertical-rule {
+    width: 2px;
+    height: 55vh;
+    margin-top: 4vh;
+    background-color: black;
+}
+
+.teams-part-3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.team-overview-image {
+    width: 20vw;
+    margin-right: 5vw;
+}

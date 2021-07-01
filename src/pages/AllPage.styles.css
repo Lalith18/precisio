@@ -1,0 +1,6 @@
+.all-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw 10vw 0;
+    justify-content: center;
+}

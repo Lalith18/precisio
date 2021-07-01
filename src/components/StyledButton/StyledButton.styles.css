@@ -1,17 +1,20 @@
 .styled-button {
-    width: 18%;
+    width: 24%;
     font-size: 2.5rem;
     color: white;
     background-color: black;
     border: none;
     position: absolute;
-    left: 41%;
-    right: 41%;
+    left: 38%;
+    right: 38%;
     box-shadow: 2px 2px 2px grey;
 }
 
 .styled-button:hover {
     font-size: 2.8rem;
+    width: 26%;
+    left: 37%;
+    right: 37%;
     box-shadow: none;
-    width: 18.5%;
+    cursor: pointer;
 }

@@ -1,0 +1,16 @@
+.sponsor-item {
+    width: 30vw;
+    margin: 7vw 2vw 0;
+    display: flex;
+}
+
+.sponsor-image {
+    border-radius: 50%;
+    width: 15vw;
+    float: left;
+}
+
+.sponsor-title {
+    display: inline;
+    margin: auto;
+}

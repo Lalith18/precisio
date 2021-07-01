@@ -1,26 +1,22 @@
-.competition-link {
-    margin: 5vw;
-}
-
-.competition-item {
-    width: 28vw;
-    height: 28vw;
+.gallery-item {
+    width: 20vw;
+    height: 20vw;
     background-position: center;
     background-size: cover;
+    margin: 2.33vw;
     position: relative;
     border-style: outset;
     border-color: yellow;
     border-width: 1vw;
 }
 
-.competition-item:hover {
+.gallery-item:hover {
     border-width: 0.75vw;
-    width: 28.5vw;
-    height: 28.5vw;
-
+    width: 20.5vw;
+    height: 20.5vw;
 }
 
-.item-title {
+.gallery-title {
     font-size: 30px;
     padding: 20px 0;
     color: white;
@@ -29,5 +25,4 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    cursor: pointer;
 }

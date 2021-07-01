@@ -10,9 +10,9 @@ const Footer = () => (
             <div>
                 <h1 className='footer-header' ><br/>Team Precisio</h1>
                 <div>
-                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" class="social-button"><FontAwesomeIcon icon={faLinkedin} /></button></a>
-                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" class="social-button"><FontAwesomeIcon icon={faInstagram} /></button></a>
-                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" class="social-button"><FontAwesomeIcon icon={faFacebookF} /></button></a>
+                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" className="social-button"><FontAwesomeIcon icon={faLinkedin} /></button></a>
+                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" className="social-button"><FontAwesomeIcon icon={faInstagram} /></button></a>
+                    <a href="https://www.instagram.com/lalith_leftie/" rel="noreferrer" target="_blank"><button type="button" className="social-button"><FontAwesomeIcon icon={faFacebookF} /></button></a>
                 </div>
             </div>
             <div>
