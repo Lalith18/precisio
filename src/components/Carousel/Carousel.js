@@ -1,58 +1,63 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import './Carousel.css';
-import {galleryImages } from '../../data/CompetitionsData';
+import {storage} from '../../firebase.utils'
 
-class Carousel extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            x: 0,
-            images: galleryImages
-        }
-    }
+const Carousel = () => {
 
-    moveLeft = () => {
-        const length = this.state.images.length
-        const {x} = this.state
+    const [x, setX] = useState(0)
+    const [images, setImages] = useState([])
+
+    const params= useParams();
+
+    useEffect(()=>{
+        try{
+            const GalleryRef = storage.ref().child(`gallery/${params.galleryid}`)
+            GalleryRef.listAll()
+            .then((res) => {
+                res.items.forEach((itemRef) => {
+                    itemRef.getDownloadURL().then( data => setImages((prevState) => [...prevState,data]))
+                  });
+            })
+          } catch(error) {
+              console.log(error);
+          }
+    },[params])
+
+    const moveLeft = () => {
+        const length = images.length
         if (x === (length-1)*(-100)) {
-            this.setState({
-                x: 0
-            })
+            setX(0)
         } else {
-            this.setState({
-                x: x-100
+            setX((prevState) => {
+                return prevState-100
             })
         }
     }
 
-    moveRight = () => {
-        const length = this.state.images.length
-        const {x} = this.state
+    const moveRight = () => {
+        const length = images.length
         if (x === 0) {
-            this.setState({
-                x: (length-1)*(-100)
-            })
+            setX((length-1)*(-100))
         } else {
-            this.setState({
-                x: x+100
+            setX((prevState) => {
+                return prevState+100
             })
         }
     }
+    const right = '<'
+    const left = '>'
 
-    render() {
-        const right = '<'
-        const left = '>'
-        const {x, images} = this.state
-        return (
-            <div className='carousel'>
-                <button className='round-button left' onClick={this.moveRight}>{right}</button>
-                <div className='slider'>
-                    {images.map((img,index) => <img className='slider-image' src={img} key={index} alt='gallery'  style={{ transform: `translateX(${x}%)`}}/>)}
-                </div>
-                <button className='round-button right' onClick={this.moveLeft} >{left}</button>
+    return (
+        <div className='carousel'>
+            <button className='round-button left' onClick={moveRight}>{right}</button>
+            <div className='slider'>
+                {images.map((img,index) => <img className='slider-image' src={img} key={index} alt='gallery'  style={{ transform: `translateX(${x}%)`}}/>)}
             </div>
-        )
-    }
+            <button className='round-button right' onClick={moveLeft} >{left}</button>
+        </div>
+    )
+    
 }
 
 export default Carousel;

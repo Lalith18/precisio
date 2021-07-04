@@ -1,7 +1,10 @@
 .about-section {
     padding-top: 5vh;
-    width: 100vw;
-    height: 100vh;
+    width: 95vw;
+    height: 50vw;
+    background-color: yellow;
+    border-right: white 5vw solid;
+    border-top: white 5vw solid;
 }
 
 .about-text {
@@ -14,6 +17,7 @@
 .about-image {
     width: 40vw;
     padding: 4vw;
+    padding-right: 2vw;
     float: right;
 }
 

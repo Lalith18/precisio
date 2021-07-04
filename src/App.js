@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Redirect  } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar/Navbar.component';
 import Homepage from './pages/HomePage/Homepage';
 import CompetitionsPage from './pages/CompetitionsPage';
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollToTop />
       <Route exact path='/'>
         <Redirect  to='/home' />
       </Route>

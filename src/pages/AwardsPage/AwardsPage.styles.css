@@ -1,0 +1,32 @@
+.awards-page {
+    display: flex;
+}
+
+.middle-line {
+    width: 20px;
+    height: 800px;
+    background-color: black;
+}
+
+.award-year {
+    font-size: 20px;
+}
+
+.award-title {
+    font-size: 22px;
+    font-size: bold;
+}
+
+.awards-position {
+    font-size: 18px;
+}
+
+.award-vertical {
+    height: 20px;
+    width: 100px;
+}
+
+.left-awards-container {
+    display: flex;
+    align-items: center;
+}
