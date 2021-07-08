@@ -1,10 +1,15 @@
 .video {
+    background-attachment: fixed;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../data/precisio.jpg);
     background-position: center;
     background-size: cover;
+    
+}
+
+.home-transparent {
     width: 100vw;
-    height: 100vh;
-    z-index: -1;
+    height: 90vh;
+    background-color: transparent;
 }
 
 .home-logo {

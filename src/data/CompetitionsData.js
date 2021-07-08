@@ -31,4 +31,24 @@ export const galleryImages = [
     img, img, img, img
 ]
 
+export const blogs = [
+    {
+        title: 'Way to go Precisio',
+        author: 'Deepak Vishal Rajan'
+    },
+    {
+        title: 'Another Blog goes here, this is another blog',
+        author: 'author name'
+    },
+    {
+        title: 'Another Blog goes here, this is another blog',
+        author: 'author name'
+    },
+    {
+        title: 'Another Blog goes here, this is another blog',
+        author: 'author name'
+    },
+    
+]
+
 export default CompetitionsData;

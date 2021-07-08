@@ -1,0 +1,102 @@
+.modal {
+    background-color: white;
+    height: 90vh;
+    width: 60vw;
+    position: fixed;
+    top: 5vh;
+    left: 20vw;
+  }
+  
+  .modal-top {
+    width: 100%;
+    height: 15%;
+    background-color: black;
+  }
+
+  .modal-logo {
+    width: 6vw;
+    height: 6vw;
+    position: relative;
+    left: 27vw;
+    top: -3vw;
+  }
+
+.modal-header {
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: -3vw;
+}
+
+.modal-options {
+  position: relative;
+  top: -2vw;
+  margin: 0 10%;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal-input {
+  margin-top: 4px;
+  font-size: 20px;
+  width: 50%;
+}
+
+.radio-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.custom-radio-button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: grey 1.5px solid;
+  cursor: pointer;
+  margin-right: 1%;
+}
+
+.custom-radio-button:hover {
+  border: black 1.5px solid;
+}
+
+.radio-on {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: grey;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.custom-radio-label {
+  display: inline;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 3%;
+}
+
+.modal-button {
+  display: block;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  width: 24%;
+  margin-top: 1%;
+  border: none;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.modal-button:hover {
+  font-size: 26px;
+  width: 26%;
+  box-shadow: none;
+}

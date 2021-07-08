@@ -1,0 +1,22 @@
+.blog-tile {
+    width: 100%;
+    margin: 5vh 12vw 0;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.blog-tile-title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blog-tile-author {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}

@@ -7,11 +7,13 @@ import './Homepage.styles.css'
 const Homepage = () => {
     return (
         <div>
+            <div className='video'>
             <div className='home-logo' >
                 <img className='home-logo-img' src={logo} alt='logo' />
             </div>
-            <div className='video' />
+            <div className='home-transparent'></div>
             <AboutSection />
+            </div>
         </div>
     )
 }

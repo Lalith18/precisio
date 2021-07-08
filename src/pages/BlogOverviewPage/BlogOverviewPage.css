@@ -1,0 +1,14 @@
+.blog-overview-page {
+    text-align: left;
+    margin: 10vh 18vw 5vh;
+}
+
+.blog-title {
+    margin: 0;
+    font-weight: 600;
+}
+
+.blog-content {
+    margin: 0;
+    font-size: 25px;
+}

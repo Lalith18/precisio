@@ -3,6 +3,9 @@ import { Route, Redirect  } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar/Navbar.component';
 import Homepage from './pages/HomePage/Homepage';
+import BlogsPreviewPage from './pages/BlogsPreviewPage';
+import BlogOverviewPage from './pages/BlogOverviewPage/BlogOverviewPage';
+import AwardsPage from './pages/AwardsPage/AwardsPage';
 import CompetitionsPage from './pages/CompetitionsPage';
 import CompetitionOverview from './components/competitions-overview/competions-overview.component';
 import GalleryPage from './pages/GalleryPage';
@@ -22,6 +25,9 @@ function App() {
         <Redirect  to='/home' />
       </Route>
       <Route exact path='/home' component={Homepage} />
+      <Route exact path='/home/blogs' component={BlogsPreviewPage} />
+      <Route path='/home/blogs/blogs-overview' component={BlogOverviewPage} />
+      <Route path='/home/awards' component={AwardsPage} />
       <Route exact path='/competitions' component={CompetitionsPage} />
       <Route path='/competitions/:id' component={CompetitionOverview} />
       <Route exact path='/teams' component={TeamsPage} />

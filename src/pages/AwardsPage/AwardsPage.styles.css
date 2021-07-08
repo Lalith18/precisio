@@ -1,32 +1,72 @@
 .awards-page {
+    margin: 10vh 0;
+}
+
+.award-parent {
     display: flex;
+    justify-content: center;
 }
 
 .middle-line {
-    width: 20px;
-    height: 800px;
+    width: 5px;
+    height: 1600px;
     background-color: black;
 }
 
+.middle-circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+}
+
 .award-year {
-    font-size: 20px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .award-title {
-    font-size: 22px;
-    font-size: bold;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
 }
 
-.awards-position {
-    font-size: 18px;
+.award-position {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
 }
 
-.award-vertical {
-    height: 20px;
+.award-vertical-left {
+    height: 5px;
     width: 100px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.award-vertical-right {
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    margin-right: 10px;
 }
 
 .left-awards-container {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    margin-bottom: 20vh;
+    text-align: right;
+    width: 30vw;
+}
+
+.right-awards-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20vh;
+    text-align: left;
+    width: 30vw;
 }

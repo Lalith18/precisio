@@ -11,7 +11,7 @@
 }
 
 .footer-header {
-    color: white;
+    color: yellow;
     display: inline ;
     font-size: 2.5rem;
     font-weight: normal;
@@ -52,8 +52,10 @@
     border: none;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 
 .social-button:hover {
     font-size: 68px;
+    color: yellow;
 }

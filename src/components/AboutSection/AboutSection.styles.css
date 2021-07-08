@@ -1,3 +1,7 @@
+.about-parent {
+    background-color: white;
+}
+
 .about-section {
     padding-top: 5vh;
     width: 95vw;
@@ -51,8 +55,7 @@
 
 .op-para {
     text-align:center;
-    font-size: 30px;
-    width: min-content;
+    font-size: 25px;
     margin: 0 auto;
 }
 
